@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 微軟正黑體 ;
+    color: azure;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.3)
+}
+
+html, body{
+    height: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+Body{
+
+    background-image: url(./bg.jpg);
+}
+
+/* 整體頁面 */
+.main{
+    width: 80%;
+    margin-top: 30px;
+}
+
+/* 導覽列 */
+.nav a{
+    text-decoration: none;
+}
+
+.main .nav ul li{
+    display: inline-block;
+    width:50px;
+    height:30px;
+    margin-left: 20px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    background-color: rgba(182, 111, 19, 0.397);
+}
+
+.nav ul li:hover{
+    background-color:transparent;
+}
+
+ul{
+    float: right;
+}
+.nav{
+    font-size: 20px;
+}
+.nav #logo{
+    width:80px;
+    height: 50px;
+    display: inline-block;
+    font-size: 4em;
+}
+
+/* 內容 */
+
+.content{
+    width: 60%;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 20px;
+}
+.content h1{
+    margin-top: 70px;
+    height: 120px;
+    font-size: 80px;
+}
+
+.content p{
+    margin-top: 30px;
+    height:50px;
+    font-size: 18px;
+}
+
+.content a{
+    width: 80px;
+    height: 45px;
+    display:inline-block;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(182, 111, 19, 0.397);
+}
+
+.content a:hover {
+    background-color:transparent;
+}
+
+/*按鈕設定 */
+
+.buttom a{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin-top: 30px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5));
+    border-radius:50%;
+    background-color: rgba(182, 111, 19, 0.397);
+}
+
+.buttom a img{
+    width:100%;
+    margin:0 auto;
+}
+
+.footer{
+
+}
